@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp3.1;net472</TargetFrameworks>
+      <Description>Sample for using NAudio Library</Description>
+      <Copyright>Copyright 2019</Copyright>
+      <PackageTags>AudioLib</PackageTags>
+      <PackageProjectUrl></PackageProjectUrl>
+      <PackageIconUrl></PackageIconUrl>
+      <PackageLicenseUrl></PackageLicenseUrl>
+      <PackageReleaseNotes>Making new version of AudioLib with .Net Standard 2.0</PackageReleaseNotes>
+      <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      <Authors></Authors>
+      <Company></Company>
+      <RepositoryUrl></RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="1.10.0" />
+  </ItemGroup>
+
+</Project>
